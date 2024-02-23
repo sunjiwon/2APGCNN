@@ -17,20 +17,7 @@ The trained GCN model achieved an impressive coefficient of determination (R2) s
 
 We implemented an active learning process to rapidly identify proteins with high PA propensity. The active learning approach outperformed other methods, achieving a MAE of 0.0291 in expected improvement. It identified 99% of the target proteins by exploring only 29% of the entire search space.
 
-## Usage
-
-- Clone the repository: `git clone [repository_url]`
-- Install dependencies: `pip install -r requirements.txt`
-- Run the prediction script: `python predict.py`
-
-## Contribution
-
-We welcome contributions and bug reports. If you find any issues or have suggestions, please open an issue or create a pull request.
-
 ## Citation
 
 If you use this work in your research, please cite our paper [Link to your paper].
 
-## License
-
-This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
