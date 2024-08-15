@@ -8,13 +8,13 @@ This repository provides the implementation of a Graph Convolutional Network (GC
 
 We recommend using Python 3.7 or higher. Install the required libraries using the commands below:
 
-pip install torch==1.11.0+cu111 torchvision==0.12.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
-pip install torch-scatter -f https://data.pyg.org/whl/torch-1.11.0+cu102.html
-pip install torch-geometric
-conda install -y -c rdkit rdkit
-pip install biopython
-conda install -y -c conda-forge biotite
-pip install tqdm
+####pip install torch==1.11.0+cu111 torchvision==0.12.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
+####pip install torch-scatter -f https://data.pyg.org/whl/torch-1.11.0+cu102.html
+####pip install torch-geometric
+####conda install -y -c rdkit rdkit
+####pip install biopython
+####conda install -y -c conda-forge biotite
+####pip install tqdm
 
 ###Note: Your environment might differ, so adjust the versions and install any additional libraries as required.
 
