@@ -8,9 +8,8 @@ from torch import nn
 import torch.nn.functional as F
 from torch.nn import Linear, BatchNorm1d
 from torch_geometric.nn import GCNConv, global_add_pool,global_mean_pool,global_max_pool 
-from torch_geometric.data import DataLoader, Data
+from torch_geometric.data import DataLoader, Data, Batch
 from torch.utils.data import Dataset
-from torch_geometric.data import Batch
 import torch_geometric
 
 from sklearn.model_selection import train_test_split
