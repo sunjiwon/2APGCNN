@@ -5,6 +5,11 @@ Advanced Protein Aggregation Prediction Graph Convolutional Neural Network (2APG
 
 This repository contains the implementation of a Graph Convolutional Network (GCN) for predicting protein aggregation (PA) scores, a critical phenomenon associated with neurodegenerative diseases such as Alzheimer's and Parkinson's. The model is trained on an expanded and refined dataset obtained from the Protein Data Bank (PDB) and AlphaFold2.0.
 
+## Requirement
+
+We recommend you to use python > 3.7.
+
+
 ## Dataset Preparation
 
 To enhance the dataset, we utilized AGGRESCAN3D 2.0 to calculate PA propensity. Multi polypeptide chains within PDB data were systematically separated into single polypeptide chains, resulting in a dataset comprising 302,032 unique PDB entries. Additionally, 22,774 Homo sapiens data from AlphaFold2.0 were included.
